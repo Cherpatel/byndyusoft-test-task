@@ -1,0 +1,25 @@
+:root {
+    --bg-color: #fe8d8e;
+    --bg-oposit-layer-color: #fca0a0;
+    --bg-inner-layer-color: #2b589a;
+    --white: #f2f2f2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    font-family: system-ui;
+    color: var(--white);
+}
+
+body {
+    min-height: 100vh;
+
+    background-color: var(--bg-color);
+}
+
+#root {
+    width: 100%;
+    min-height: 100%;
+}

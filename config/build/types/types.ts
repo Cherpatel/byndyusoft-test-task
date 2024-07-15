@@ -4,6 +4,7 @@ export type BuildPaths = {
     output: string;
     components: string;
     assets: string;
+    libs: string;
     config: string;
     favicon: string;
 };

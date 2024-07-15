@@ -1,0 +1,32 @@
+.root {
+    width: 600px;
+    padding: 40px 30px;
+
+    background-color: var(--bg-oposit-layer-color);
+    border-radius: 20px;
+}
+
+.innerLayer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 80px 55px 45px;
+
+    background-color: var(--bg-inner-layer-color);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px -10px #2b2b2b;
+}
+
+.spliter {
+    position: relative;
+
+    flex: 0 0 auto;
+
+    width: 100%;
+    height: 2px;
+    margin: 25px 0;
+
+    background-color: #7999CA;
+    border-radius: 999999px;
+}

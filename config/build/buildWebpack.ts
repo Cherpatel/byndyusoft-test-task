@@ -23,6 +23,7 @@ export default function webpackBuild(options: BuildOptions): webpack.Configurati
             clean: true,
             filename: "[name].[contenthash].js",
             path: paths.output,
+            sourceMapFilename: "[file].map",
         },
         plugins: buildPlugins(options),
         resolve: buildResolvers(options),

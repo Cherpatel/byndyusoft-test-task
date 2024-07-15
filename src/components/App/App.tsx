@@ -1,8 +1,11 @@
-import styles from "./App.module.css";
+import Calculator from "@components/Calculator/Calculator";
+
+import "./App.css";
 
 export default function App() {
     return (
-        <div className={ styles.root }>
-        </div>
+        <main>
+            <Calculator />
+        </main>
     );
 }

@@ -16,6 +16,11 @@ const importOrderCustomGroups = [
         position: "after",
     },
     {
+        group: "sibling",
+        pattern: "@libs/**",
+        position: "after",
+    },
+    {
         group: "type",
         pattern: "./*.{css,sass,scss}",
         position: "after",

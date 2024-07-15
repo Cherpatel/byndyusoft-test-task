@@ -1,0 +1,38 @@
+/* stylelint-disable selector-pseudo-class-no-unknown */
+.root {
+    cursor: pointer;
+    user-select: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    aspect-ratio: 1/1;
+    width: 100%;
+
+    background-color: transparent;
+    border-radius: 50%;
+
+    transition: 0.2s;
+
+    & svg {
+        width: 40%;
+        height: 40%;
+    }
+
+    &:global(.white) {
+        background-color: white;
+
+        & * {
+            color: var(--bg-inner-layer-color);
+        }
+    }
+
+    &:not(:global(.white)):hover {
+        background-color: #4B79BF;
+    }
+
+    &:global(.small) svg {
+        width: 30%;
+    }
+}

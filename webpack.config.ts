@@ -22,6 +22,7 @@ export default (env: Env) => {
         entry: path.resolve(__dirname, "src", "index.tsx"),
         favicon: path.resolve(__dirname, "public", "favicon.ico"),
         html: path.resolve(__dirname, "public", "index.html"),
+        libs: path.resolve(__dirname, "src", "libs"),
         output: path.resolve(__dirname, "build"),
     };
 
